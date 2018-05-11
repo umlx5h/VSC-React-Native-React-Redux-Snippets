@@ -1,7 +1,7 @@
 {
-  "name": "react-native-react-redux",
-  "displayName": "React-Native/React/Redux snippets for es6/es7",
-  "description": "Code snippets for React-Native/React/Redux es6/es7 and flowtype",
+  "name": "typescript-react-snippets",
+  "displayName": "Typescript React snippets",
+  "description": "Code snippets for Typescript React",
   "version": "1.8.0",
   "galleryBanner": {
     "theme": "light",
@@ -9,36 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/EQuimper/VSC-React-Native-React-Redux-Snippets"
+    "url": "https://github.com/umlx5h/VSC-Typescript-React-Snippets"
   },
   "icon": "images/react-redux.jpg",
-  "publisher": "EQuimper",
+  "publisher": "umlx5h",
   "keywords": [
     "vscode",
     "snippets",
     "react",
-    "redux",
-    "react-native",
-    "es6",
-    "es7",
-    "javascript"
-  ],
-  "badges": [
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/version-short/EQuimper.react-native-react-redux.svg",
-      "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
-      "description": "Version"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/installs-short/EQuimper.react-native-react-redux.svg",
-      "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
-      "description": "Install Count"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/rating-short/EQuimper.react-native-react-redux.svg",
-      "href": "https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux",
-      "description": "Rating"
-    }
+    "typescript"
   ],
   "engines": {
     "vscode": "^1.5.0"
@@ -49,23 +28,11 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/snippets.json"
-      },
-      {
         "language": "typescript",
         "path": "./snippets/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "jsx",
         "path": "./snippets/snippets.json"
       }
     ]
